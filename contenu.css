@@ -1,0 +1,367 @@
+/*LAYERS */
+
+h2{
+    color: brown;
+    font-size: 2em;
+    font-weight: 650;
+    margin-bottom: 30px;
+
+ }
+ 
+ p {
+    text-align: center;
+    line-height: 1.5;
+ }
+
+ h3 {
+
+    font-size: 1.5em;
+    padding: 3px 7px;
+    color:#ffffff ;
+    background-color: black;
+    font-weight:lighter;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+   
+}
+
+/* HEADER */
+
+.row-header{
+    flex-direction: column  ;
+    padding-top: 0px;
+}
+.row-header-slider {
+    width: 100%;
+    background-image: url(images/header-martinter.jpg);
+    background-position: center; 
+    background-size: cover;
+    padding-top: 25px;
+    padding-bottom: 360px;
+
+}
+
+.row-header-content {
+width: 1920px;
+max-width: 90%;
+position: relative;
+margin:auto;    
+
+}
+
+.nav-top { 
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: 50px;
+    
+}
+.nav-top ul {
+    list-style: none; 
+    margin-right: 10    0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.nav-top ul li {
+    margin: 0 10px;
+    padding: 10px 10px;
+}
+.nav-top ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+
+.logo {
+    margin-top: -40px;
+}
+/* END HEADER */    
+
+/*INTRODUCTION */
+
+.fleche {
+   text-align: center;
+    margin: 5px 0px 5px 0px;
+    
+
+}
+.row-introduction {
+    width: 47%;
+    padding-bottom: 50px;
+}
+
+
+/* END INTRODUCTION */
+
+
+/* ACTIVITES */
+
+.row-activites {
+    background-color: #f3f3F3;
+    padding-top: 30px;
+    flex-direction: column;
+    padding-bottom: 150px;
+}
+.row-activites .fleche {
+    margin-bottom: 20px;    
+}
+
+.row-activites h2 {
+    margin-bottom: 60px;
+}
+.row-activites h3
+{
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 0 10px 0px
+}
+.row-activites p  { 
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; 
+    font-size: 0.9em;
+ 
+
+}
+.container-activites {
+width: 1140px;   
+max-width: 90%;
+ 
+}
+.photo-activite {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+
+}
+
+/* END ACTIVITES */
+
+/* EQUIPE */
+
+.row-equipe {
+  
+    padding-top: 30px;
+    flex-direction: column;
+    padding-bottom: 150px;
+}
+.row-equipe .fleche {
+    margin-bottom: 40px;
+}
+.row-equipe h2 {
+    margin-bottom: 70px;
+}
+
+.container-equipe {
+    width: 1366px;
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.photo-equipe{
+   width: 377px;
+    max-width: 90%;
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    margin: auto;
+    text-align: center;
+}
+
+span {
+    padding-top: 20px;
+    padding-bottom: 5px;
+    color: brown;
+    font-weight: 300;
+}
+/* END EQUIPE */
+
+/* FOOTER */ 
+
+.row-footer
+{
+    background-color: #1d1d1b;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    margin: auto;
+    color: #ffffff;
+    font-size: 0.9em;
+    padding-top: 60px;
+    padding-bottom: 0px;
+    position: relative;
+}
+
+
+.row.row-footer 
+{
+    padding-bottom: 0px;
+}
+.logo-martinter-footer {
+    position: absolute;
+    top: -37px;
+}
+
+.mentions {
+    background-color: #ffffff;
+    color: black;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+.mentions a {
+    margin: 0 10px;
+}
+/* END FOOTER */ 
+
+
+
+/* POLITIQUES */
+
+.container-politiques {
+    color: grey;
+}
+
+table {
+    border-collapse:collapse    ;
+    color: grey;
+    margin: 20px auto;
+}
+td {
+    border: 1px solid grey;
+    padding: 15px 60px;
+
+}
+
+.container-politiques p {
+    margin: 15px;
+    text-align:justify;
+    width: 100%;
+} h4, h5 {
+    font-size: 1em;
+    font-weight: 100em;
+    width: 100%;
+    text-align: left;
+}   
+
+/* END POLITIQUES */
+
+/* MENTIONS */
+
+.container-mentions {
+    color: black;
+    margin-bottom: 30px;
+}
+
+.container-mentions p {
+    margin: 15px;
+    text-align: justify;
+    width: 100%;
+
+}
+
+.container-mentions h4 {
+    font-weight: 700;
+    color: black;
+}
+
+.container-mentions span {
+    font-weight: 700;
+    color: black;
+}
+
+/* END MENTIONS*/
+
+/* CONTACT */
+
+.row-contact { 
+    margin-bottom: 30px;
+}
+.container-contact {
+    width: 500px;
+    max-width: 90%;
+    margin: auto;
+    flex-direction: column;
+    text-align: center;
+
+}
+.container-contact p {
+    margin: 20px 0;
+    width: 100%;
+    text-align: left;
+}
+.container-contact label {
+    display: block;
+}
+.prenomnom {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: -10px;
+    gap: 10px;
+}
+.container-contact p.champs { 
+    text-align: center;
+}
+ label { 
+    margin-bottom: 3px;
+ }
+
+ form { 
+    width:100% ;}
+
+.container-contact input, textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.5em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input { 
+    height:30px;
+    font-size: 1.1em
+}
+textarea {
+    height: 200px;
+    font-size: 1.1em
+}
+
+input[type=submit] {
+    width: 200px;
+    padding: 10px 0;
+    background-color: brown;
+    color: white;
+    text-align: center;
+    line-height: 1;
+    height: fit-content;
+    margin: 0 auto;
+    display: block; 
+    
+}
+input[type=checkbox]{
+    width: fit-content;
+    margin-right: 0.5em;
+    vertical-align: bottom;
+
+}
+
+label[for=rgpd]{
+    display: inline;
+}

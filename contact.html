@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Martinter</title>
+    <link href="global.css" rel="stylesheet">
+    <link href="contenu.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="row row-header">
+            <div class="row-header-slider">
+                <div class="row-header-content">
+                    <nav class="nav-top">
+                        <ul>    
+                        <li><a href="index.html#introduction">LA SOCIETE</a></li>
+                        <li><a href="index.html#activites">ACTIVITES</a></li>
+                        <li><a href="index.html#lequipe"> L'EQUIPE</a></li>
+                        <li><a href="contact.html"> CONTACT </a></li>
+                        </ul>
+                    </nav> 
+                </div>   
+            </div>
+            <div class="logo">
+                <img class="logo-top" src="images\logo-martinter-header.png" alt="logo martinter" > 
+            </div> 
+    </header>
+
+
+    <main>
+        <div class="fleche"><img src="images/picto-fleche-bas.png" alt="picto fleche"></div>
+     <section class="row row-contact"> 
+            <div class="container container-contact">
+            <h2>CONTACT</h2>
+            <p class="champs">Merci de renseigner les champs suivants:</p>
+            <form method="get" action="">
+                <div class="prenomnom">
+                    <p><label for="prenom">Prénom* :</label>  <input type="text" name="prenom" id="prenom" placeholder="Entrez votre prénom" required> </p>
+                    <p><label for="nom">Nom* :</label>  <input type="text" name="nom" id="nom" placeholder="Entrez votre nom" required></p>
+                </div>
+                <p>
+                    <label for="email">Adresse de messagerie* :</label>  <input type="email" name="email" id="email" placeholder="Entrez votre adresse de messagerie" required   > 
+                </p>
+                <p> 
+                    <label for="objet">Objet :</label> <input type="text" name="objet" id="objet" placeholder="Objet de votre demande">
+                </p>
+                <p>
+                    <label for="message">Message* :</label> <textarea name="message" id="message" placeholder="Votre message" required></textarea>  
+                </p>
+
+                <p>Argosyn, responsable de traitement, traite vos données aux fins de traiter votre demande via ce formulaire. Conformément à la loi Informatique et Libertés modifiée du 6 janvier 1978, vous disposez notamment d’un droit d’accès, d’opposition, de rectification et de suppression. En savoir plus</p>
+                <p><input type="checkbox" name="rgpd"><label for="rgpd">* J'ai lu et j'accepte la politique de confidentialité sur mes données personnelles.</label></p>
+                <p class=""><input type="submit" value="Envoyer"></p>
+                
+                
+            </form>
+                
+
+
+
+</main>
+<footer class="row row-footer">
+        
+        <div class="logo-martinter-footer"><img src="images/logo-martinter-footer.png" alt="logo-martinter-footer"></div>
+        <p>16 rue Denis Papin - 59650 Villeneuve d’Ascq – Email : contact@martinter.fr</p>
+        <div class="mentions">  
+            <a href="index.html">© Martinter 2020</a>
+            <a href="mentions.html"> Mentions légales</a>
+            <a href="politiques.html">Politique de confidentialité</a>      
+        </div>
+</footer>
+
+    
+</body>
+</html>
